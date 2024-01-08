@@ -1,6 +1,9 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,14 +12,69 @@
     --filter-bg-color: #DEEBFF;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    height: 79px;
+    margin-bottom: 34px;
+    justify-content: space-between;
+        
+}
+
+#img-logo-booki {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+#img-logo-booki img {
+    width: 61.09px;
+    height: 19px;
+
+}
+
+nav {
+    width: 20%;
+    height: 50px;   
+    
+}
+
+ul {
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 68px;
+    
+}
+
+li {
+    padding-top: 20px;
+    border-top: 2px solid transparent;
+}
+
+li:hover {
+    color: #0065FC ;
+    border-top: 2px solid #0065FC;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
 .fa-solid {
     color: var(--main-color);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
+
 
 .main-container {
     width: 100%;
