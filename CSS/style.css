@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -12,9 +13,14 @@
     --filter-bg-color: #DEEBFF;
 }
 
+body {
+    min-height: 100vh;
+    max-width: 1440px;
+    padding: 0 50px 0 50px;
+    margin: auto;
+}
 
 /* HEADER */
-
 
 header {
     display: flex;
@@ -40,7 +46,6 @@ header {
 nav {
     width: 20%;
     height: 50px;   
-    
 }
 
 nav ul {
@@ -64,36 +69,23 @@ nav ul {
 }
 
 
-/* BODY et MAIN */
-/* divisé en 3 parties */
-/* 1ere partie : search-filter-container */
-/* 2eme partie : hebergements-and-populaires-container */
-/* 3ème partie : activités-container */
+/* MAIN */
+/* divisé en 3 sections */
+/* 1ere section : search-filter-container */
+/* 2eme section : hebergements-and-populaires-container */
+/* 3ème section : activités-container */
 
-/* General */
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    
-}
-
-/* 1ere partie : search-filter-container */
+/* 1ere section : search-filter-container */
 
 h1 {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
+    font-size: 1.375rem;
 }
 
 .search-filter-container p {
     margin-bottom: 35px;
+    font-size: 1rem;
 }
 
 /* barre de recherches */
@@ -170,7 +162,7 @@ input[type="button"] {
 .filtres-bar {
     width: 758px;
     height: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
 }
 
 .filtres {
@@ -213,14 +205,16 @@ input[type="button"] {
     font-size: 22px;
 }
 
+/* info logements */
 
 
+
+
+/* 2eme section : hebergements-and-populaires-container */
 
 .fa-solid {
     color: var(--main-color);
 }
-
-
 
 a {
     color: inherit;
