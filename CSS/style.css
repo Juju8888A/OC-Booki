@@ -205,10 +205,12 @@ input[type="button"] {
     font-size: 22px;
 }
 
-/* info logements */
+/* barre info logements */
 
-
-
+.icone-info-logement {
+    font-size: 0.8rem;
+    padding-right: 20px;
+}
 
 /* 2eme section : hebergements-and-populaires-container */
 
