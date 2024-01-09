@@ -43,7 +43,7 @@ nav {
     
 }
 
-ul {
+nav ul {
     list-style: none;
     font-size: 1rem;
     display: flex;
@@ -53,12 +53,12 @@ ul {
     
 }
 
-li {
+.btn-nav {
     padding-top: 20px;
     border-top: 2px solid transparent;
 }
 
-li:hover {
+.btn-nav:hover {
     color: #0065FC ;
     border-top: 2px solid #0065FC;
 }
