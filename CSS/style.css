@@ -301,13 +301,15 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hebergements-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
+    justify-content: space-between;  
     gap: 30px;
 }
 
@@ -358,6 +360,13 @@ a {
 
 .card-txt p {
     font-size: 0.9rem;
+}
+
+.btn-afficher-plus button {
+    font-size: 18px;
+    font-weight: bold;
+    border-style : none;
+
 }
 
 /****** Populaires ***********/
