@@ -269,7 +269,6 @@ a {
     
 }
 
-/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires-container {
     display: flex;
     justify-content: space-between;
@@ -303,17 +302,18 @@ a {
     gap: 30px;
 }
 
+.hebergements-cards a {
+    width: 33%;
+    height: 207px;
+}
+
 .hebergements-cards article {
-    height: 100%;
+    min-height: 207px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.hebergements-cards a {
-    width: 33%;
-    height: 207px;
-}
 
 .hebergements-cards img { 
     width: 100%; 
@@ -326,15 +326,9 @@ a {
 .hebergements-cards .card-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 64px;
     padding: 0px 15px 0px 15px;
-    
-}
-.hebergements-cards .card-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 6px;
-    height: 50px;
     
 }
 
@@ -346,10 +340,6 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 1.5px;
-}
-
-.card-txt p {
-    font-size: 0.9rem;
 }
 
 .btn-afficher-plus button {
@@ -429,6 +419,7 @@ a {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    
 }
 
 .activites-card-container {
@@ -436,6 +427,7 @@ a {
     
     display: flex;
     justify-content: center;
+    
 }
 
 .activites-card {
@@ -447,14 +439,15 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
     
+    
 }
 
 .activites-card img {
     height: 380px;
-    width: 100%;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    
 }
 
 .activites-card-txt {
@@ -545,6 +538,7 @@ h4 {
 /* Medium devices (tablets, less/equal than 1024px) */
 
 
+
 @media screen and (max-width: 1024px) {
 
 
@@ -579,9 +573,6 @@ h4 {
         width: 31%;
     }
 
-.activites-marseille-cards {
-    height: 270px;
-}
 
 
 }
