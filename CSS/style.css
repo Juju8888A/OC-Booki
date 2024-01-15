@@ -412,19 +412,17 @@ a {
 
 .activites-title {
     display: flex;
-    
 }
 
 .activites-marseille-cards {
+    max-width: 1280px;
+    max-height: 439px;
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    
+    flex-direction: row;  
 }
 
 .activites-card-container {
     width: 25%;
-    
     display: flex;
     justify-content: center;
     
@@ -538,9 +536,9 @@ h4 {
 /* Medium devices (tablets, less/equal than 1024px) */
 
 
-
 @media screen and (max-width: 1024px) {
 
+    /* Hébergements et populaires */
 
     .hebergements-and-populaires-container {
         flex-direction: column;
@@ -573,11 +571,61 @@ h4 {
         width: 31%;
     }
 
+    /* Activités */
 
+    .activites-marseille-cards {
+    gap: 30px;
+    }
+
+    .activites-card {
+        height: 270px;
+        width: 193.5px;
+        
+        
+    }
+
+    .activites-card img {
+        height: 200px;
+    }
+
+    .activites-card-txt {
+        padding-bottom: 10px;
+    }
 
 }
 
 
-@media (max-width: 767.98px) {
-    /* ... */
+@media screen and (max-width: 768px) { 
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img-logo-booki {
+        justify-content: center;
+        margin-top: 20px;
+        width: 768px;
+    }
+
+    nav {
+        width: 768px;
+    }
+
+    nav ul {
+        gap: 0;
+        width: 768px;
+
+    }
+
+    .btn-nav {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+
 }
