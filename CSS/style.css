@@ -469,51 +469,23 @@ a {
     justify-content: space-between;
 }
 
+h4 {
+    font-size: 18px;
+}
+
 .footer-content ul {
     list-style: none;
     font-size: 16px;
 }
 
-.a-propos-content {
+.list-content {
     width: 33%;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.trio-list {
-    height: 142px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5px;
-    gap: 10px;
-}
-
-.nos-hebergements-content {
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-}
-
-.duo-list {
-    height: 142px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 13px;
-    gap: 10px;
+    gap: 15px;
 }
 
-.assistance-content {
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-}
-
-h4 {
-    font-size: 18px;
-}
 
 
 
