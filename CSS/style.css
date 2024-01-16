@@ -415,32 +415,30 @@ a {
 }
 
 .activites-marseille-cards {
-    max-width: 1280px;
-    max-height: 439px;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
+    gap: 30px;
+    
 }
 
 .activites-card-container {
-    width: 25%;
     display: flex;
-    justify-content: center;
+    width: 25%;
     
 }
 
-.activites-card {
+.activites-card-container a {
     display: flex;
     flex-direction: column;
-    width: 297.5px;
-    height: 439px;
     background-color: white;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
-    
-    
+    width: 100%;
+
 }
 
 .activites-card img {
+    width: 100%;
     height: 380px;
     object-fit: cover;
     border-top-left-radius: 20px;
@@ -573,25 +571,15 @@ h4 {
 
     /* Activités */
 
-    .activites-marseille-cards {
-    gap: 30px;
-    }
-
     .activites-card {
         height: 270px;
-        width: 193.5px;
-        
-        
+            
     }
 
     .activites-card img {
         height: 200px;
     }
-
-    .activites-card-txt {
-        padding-bottom: 10px;
-    }
-
+ 
 }
 
 
