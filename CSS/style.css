@@ -658,6 +658,10 @@ h4 {
     border-bottom-right-radius: 15px ;
     }
 
+    .icone-form {
+        flex-shrink: 0;
+    }
+
     input[type="search"] {
         border: none;
         width: 236px;
@@ -684,19 +688,20 @@ h4 {
         display: block;
     }
 
-.btn-filtres {
+    .btn-filtres {
     flex-direction: column;
     width: 100%;
-}
+    }
 
-.btn-ligne {
+    .btn-ligne {
     width: 100%;
     gap: 15px;
-}
+    }
 
 .btn-ligne button {
     justify-content: flex-start;
-    width: 162.5px;
+    width: 161px;
+    min-width: 161px;
     font-size: 14px;
 }
 
