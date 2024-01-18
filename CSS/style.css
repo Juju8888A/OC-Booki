@@ -695,6 +695,7 @@ h4 {
 .hebergements-and-populaires-container {
     flex-direction: column-reverse;
     gap: 15px;
+    margin-bottom:0;
     
 }
 
@@ -729,6 +730,28 @@ h4 {
 .btn-afficher-plus button {
     background-color: white;
 }
+
+/* activites-container */
+
+.activites-marseille-cards {
+    flex-direction: column;
+    width: 100%;
+}
+
+.activites-card-container {
+    width: 100%;
+    
+}
+
+.activites-card {
+    height: 200px;
+}
+
+.activites-card img {
+    height: 141px;
+    
+}
+
 
 
 }
