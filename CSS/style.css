@@ -695,13 +695,16 @@ h4 {
 .hebergements-and-populaires-container {
     flex-direction: column-reverse;
     gap: 15px;
-    margin-bottom:0;
+    margin-bottom:30px;
+    
     
 }
 
 .hebergements-and-populaires-container .hebergements {
     background-color: white;
+    padding: 20px 0 0 0;
 }
+
 
 .hebergements-and-populaires-container .populaires {
     margin-top: 0;
@@ -729,9 +732,14 @@ h4 {
    
 .btn-afficher-plus button {
     background-color: white;
+    padding-bottom: 20px;
 }
 
 /* activites-container */
+
+.activites-container {
+    padding: 30px 10px 30px 10px;
+}
 
 .activites-marseille-cards {
     flex-direction: column;
@@ -749,8 +757,26 @@ h4 {
 
 .activites-card img {
     height: 141px;
+ 
     
+   
 }
+
+ /* FOOTER */
+
+footer {
+   
+}
+
+ .footer-content {
+        flex-direction: column;
+        min-height: 461px;
+        padding: 30px;
+ }
+
+ .list-content {
+    width: 60%;
+ }
 
 
 
