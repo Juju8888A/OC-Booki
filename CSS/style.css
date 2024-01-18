@@ -529,6 +529,7 @@ h4 {
 @media screen and (max-width: 1024px) {
 
     /* HEADER */
+    /* 1ere partie : search-filter-container */
     /* barre de filtres */
 
     .filtres-bar{
@@ -544,7 +545,7 @@ h4 {
     }
 
 
-    /* hebergements-and-populaires-container */
+    /* 2eme partie : hebergements-and-populaires-container */
 
     .hebergements-and-populaires-container {
         flex-direction: column;
@@ -600,10 +601,6 @@ h4 {
         padding: 0;
     }
 
-    main {
-        padding: 0 20px 0 20px;
-    }
-
     header {
         display: flex;
         flex-direction: column;
@@ -642,7 +639,13 @@ h4 {
         border-bottom: 2px solid #0065FC;
     }
 
+
+    /* 1ere partie : search-filter-container */
     /* barre de recherches */
+
+    .search-filter-container {
+    padding: 0 20px 0 20px;
+    }
 
     .search-bar {
     width: 100%;
@@ -676,17 +679,24 @@ h4 {
     
     /* barre de filtres */
     
+    .filtres-bar {
+        width: 100%;
+        display: block;
+    }
+
 .btn-filtres {
     flex-direction: column;
-    
+    width: 100%;
 }
 
 .btn-ligne {
     width: 100%;
+    gap: 15px;
 }
 
 .btn-ligne button {
-    width: 50%;
+    justify-content: flex-start;
+    width: 162.5px;
     font-size: 14px;
 }
 
@@ -695,6 +705,7 @@ h4 {
 .hebergements-and-populaires-container {
     flex-direction: column-reverse;
     gap: 15px;
+    
     margin-bottom:30px;
     
     
@@ -702,12 +713,14 @@ h4 {
 
 .hebergements-and-populaires-container .hebergements {
     background-color: white;
-    padding: 20px 0 0 0;
+    padding: 20px ;
 }
 
 
 .hebergements-and-populaires-container .populaires {
     margin-top: 0;
+    padding: 20px;
+    border-radius: 0;
 }
 
 .populaires-cards {
@@ -718,8 +731,13 @@ h4 {
     width: 100%;
 }
 
+.populaires-cards .card {
+    margin-top: 15px;
+}
+
 .hebergements-cards {
     flex-direction: column;
+    gap: 15px;
 }
 
 .hebergements-cards a {
@@ -735,15 +753,16 @@ h4 {
     padding-bottom: 20px;
 }
 
-/* activites-container */
+/* 3ème partie : activites-container */
 
 .activites-container {
-    padding: 30px 10px 30px 10px;
+    padding: 30px;
 }
 
 .activites-marseille-cards {
     flex-direction: column;
     width: 100%;
+    gap: 15px;
 }
 
 .activites-card-container {
@@ -758,26 +777,19 @@ h4 {
 .activites-card img {
     height: 141px;
  
-    
-   
 }
 
  /* FOOTER */
 
-footer {
-   
-}
-
  .footer-content {
         flex-direction: column;
-        min-height: 461px;
+        height: 100%;
         padding: 30px;
+        gap: 50px;
  }
 
  .list-content {
     width: 60%;
  }
-
-
 
 }
