@@ -520,11 +520,6 @@ h4 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 
-@media screen and (max-width: 1440px) {
-       
-
-}
-
 
 @media screen and (max-width: 1024px) {
 
@@ -562,7 +557,7 @@ h4 {
     }
 
     .hebergements-cards {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     .populaires {
